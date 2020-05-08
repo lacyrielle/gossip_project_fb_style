@@ -12,8 +12,8 @@ class Gossip < ApplicationRecord
         too_long: " must have at most %{count} characters"
         }
 
-  validates :content,
-    presence: true
+    validates :content,
+        presence: true
 
 
 end
